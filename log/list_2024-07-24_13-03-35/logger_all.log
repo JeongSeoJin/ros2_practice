@@ -1,0 +1,94 @@
+[0.465s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/seojin/prac']
+[0.465s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/seojin/prac'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7c901610f5e0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7c901622f580>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7c901622f580>>, mixin_verb=('list',))
+[1.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.464s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/seojin/prac'
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac) by extensions ['ignore', 'ignore_ament_install']
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac) by extension 'ignore'
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac) by extension 'ignore_ament_install'
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac) by extensions ['colcon_pkg']
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac) by extension 'colcon_pkg'
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac) by extensions ['colcon_meta']
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac) by extension 'colcon_meta'
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac) by extensions ['ros']
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac) by extension 'ros'
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac) by extensions ['cmake', 'python']
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac) by extension 'cmake'
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac) by extension 'python'
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac) by extensions ['python_setup_py']
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac) by extension 'python_setup_py'
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/build) by extensions ['ignore', 'ignore_ament_install']
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/build) by extension 'ignore'
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/build) ignored
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/install) by extensions ['ignore', 'ignore_ament_install']
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/install) by extension 'ignore'
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/install) ignored
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/log) by extensions ['ignore', 'ignore_ament_install']
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/log) by extension 'ignore'
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/log) ignored
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src) by extensions ['ignore', 'ignore_ament_install']
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src) by extension 'ignore'
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src) by extension 'ignore_ament_install'
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src) by extensions ['colcon_pkg']
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src) by extension 'colcon_pkg'
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src) by extensions ['colcon_meta']
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src) by extension 'colcon_meta'
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src) by extensions ['ros']
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src) by extension 'ros'
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src) by extensions ['cmake', 'python']
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src) by extension 'cmake'
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src) by extension 'python'
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src) by extensions ['python_setup_py']
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src) by extension 'python_setup_py'
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src/my_robot_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src/my_robot_controller) by extension 'ignore'
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src/my_robot_controller) by extension 'ignore_ament_install'
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src/my_robot_controller) by extensions ['colcon_pkg']
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src/my_robot_controller) by extension 'colcon_pkg'
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src/my_robot_controller) by extensions ['colcon_meta']
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src/my_robot_controller) by extension 'colcon_meta'
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src/my_robot_controller) by extensions ['ros']
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src/my_robot_controller) by extension 'ros'
+[1.517s] DEBUG:colcon.colcon_core.package_identification:Package '/home/seojin/prac/src/my_robot_controller' with type 'ros.ament_python' and name 'my_robot_controller'
+[1.517s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src/tutorial_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.517s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src/tutorial_interfaces) by extension 'ignore'
+[1.517s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src/tutorial_interfaces) by extension 'ignore_ament_install'
+[1.517s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src/tutorial_interfaces) by extensions ['colcon_pkg']
+[1.518s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src/tutorial_interfaces) by extension 'colcon_pkg'
+[1.518s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src/tutorial_interfaces) by extensions ['colcon_meta']
+[1.518s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src/tutorial_interfaces) by extension 'colcon_meta'
+[1.518s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src/tutorial_interfaces) by extensions ['ros']
+[1.518s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src/tutorial_interfaces) by extension 'ros'
+[1.520s] DEBUG:colcon.colcon_core.package_identification:Package '/home/seojin/prac/src/tutorial_interfaces' with type 'ros.ament_cmake' and name 'tutorial_interfaces'
+[1.520s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src/yolo-Weights) by extensions ['ignore', 'ignore_ament_install']
+[1.521s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src/yolo-Weights) by extension 'ignore'
+[1.521s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src/yolo-Weights) by extension 'ignore_ament_install'
+[1.521s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src/yolo-Weights) by extensions ['colcon_pkg']
+[1.521s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src/yolo-Weights) by extension 'colcon_pkg'
+[1.521s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src/yolo-Weights) by extensions ['colcon_meta']
+[1.521s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src/yolo-Weights) by extension 'colcon_meta'
+[1.521s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src/yolo-Weights) by extensions ['ros']
+[1.521s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src/yolo-Weights) by extension 'ros'
+[1.522s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src/yolo-Weights) by extensions ['cmake', 'python']
+[1.522s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src/yolo-Weights) by extension 'cmake'
+[1.522s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src/yolo-Weights) by extension 'python'
+[1.522s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src/yolo-Weights) by extensions ['python_setup_py']
+[1.522s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/src/yolo-Weights) by extension 'python_setup_py'
+[1.522s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/yolo-Weights) by extensions ['ignore', 'ignore_ament_install']
+[1.522s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/yolo-Weights) by extension 'ignore'
+[1.523s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/yolo-Weights) by extension 'ignore_ament_install'
+[1.523s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/yolo-Weights) by extensions ['colcon_pkg']
+[1.523s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/yolo-Weights) by extension 'colcon_pkg'
+[1.523s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/yolo-Weights) by extensions ['colcon_meta']
+[1.523s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/yolo-Weights) by extension 'colcon_meta'
+[1.523s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/yolo-Weights) by extensions ['ros']
+[1.523s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/yolo-Weights) by extension 'ros'
+[1.523s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/yolo-Weights) by extensions ['cmake', 'python']
+[1.524s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/yolo-Weights) by extension 'cmake'
+[1.524s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/yolo-Weights) by extension 'python'
+[1.524s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/yolo-Weights) by extensions ['python_setup_py']
+[1.524s] Level 1:colcon.colcon_core.package_identification:_identify(/home/seojin/prac/yolo-Weights) by extension 'python_setup_py'
+[1.524s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

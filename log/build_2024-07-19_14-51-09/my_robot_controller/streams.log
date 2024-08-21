@@ -1,0 +1,46 @@
+[0.893s] Invoking command in '/home/seojin/prac/build/my_robot_controller': PYTHONPATH=/home/seojin/prac/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seojin/prac/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/seojin/prac/build/my_robot_controller/build
+[1.250s] running develop
+[1.250s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.251s]   warnings.warn(
+[1.336s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.12.1-git20200711.33e2d80-dfsg1-0.6 is an invalid version and will not be supported in a future release
+[1.337s]   warnings.warn(
+[1.489s] Removing /home/seojin/prac/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[1.527s] Invoked command in '/home/seojin/prac/build/my_robot_controller' returned '0': PYTHONPATH=/home/seojin/prac/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seojin/prac/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/seojin/prac/build/my_robot_controller/build
+[1.530s] Invoking command in '/home/seojin/prac/src/my_robot_controller': PYTHONPATH=/home/seojin/prac/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seojin/prac/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/seojin/prac/build/my_robot_controller/build install --record /home/seojin/prac/build/my_robot_controller/install.log --single-version-externally-managed install_data --force
+[1.853s] running egg_info
+[1.854s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[1.854s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[1.854s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[1.855s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[1.855s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[1.858s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[1.859s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[1.859s] running build
+[1.859s] running build_py
+[1.860s] copying my_robot_controller/pose_subscriber.py -> /home/seojin/prac/build/my_robot_controller/build/lib/my_robot_controller
+[1.860s] copying my_robot_controller/draw_circle.py -> /home/seojin/prac/build/my_robot_controller/build/lib/my_robot_controller
+[1.860s] running install
+[1.861s] running install_lib
+[1.862s] creating /home/seojin/prac/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.863s] copying /home/seojin/prac/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /home/seojin/prac/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.863s] copying /home/seojin/prac/build/my_robot_controller/build/lib/my_robot_controller/my_first_node.py -> /home/seojin/prac/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.863s] copying /home/seojin/prac/build/my_robot_controller/build/lib/my_robot_controller/pose_subscriber.py -> /home/seojin/prac/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.863s] copying /home/seojin/prac/build/my_robot_controller/build/lib/my_robot_controller/draw_circle.py -> /home/seojin/prac/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.863s] copying /home/seojin/prac/build/my_robot_controller/build/lib/my_robot_controller/turtle_controller.py -> /home/seojin/prac/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.864s] byte-compiling /home/seojin/prac/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py to __init__.cpython-310.pyc
+[1.864s] byte-compiling /home/seojin/prac/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/my_first_node.py to my_first_node.cpython-310.pyc
+[1.865s] byte-compiling /home/seojin/prac/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/pose_subscriber.py to pose_subscriber.cpython-310.pyc
+[1.865s] byte-compiling /home/seojin/prac/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/draw_circle.py to draw_circle.cpython-310.pyc
+[1.866s] byte-compiling /home/seojin/prac/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/turtle_controller.py to turtle_controller.cpython-310.pyc
+[1.866s] running install_data
+[1.866s] copying resource/my_robot_controller -> /home/seojin/prac/install/my_robot_controller/share/ament_index/resource_index/packages
+[1.867s] copying package.xml -> /home/seojin/prac/install/my_robot_controller/share/my_robot_controller
+[1.867s] running install_egg_info
+[1.869s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/seojin/prac/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[1.870s] running install_scripts
+[1.896s] Installing draw_circle script to /home/seojin/prac/install/my_robot_controller/lib/my_robot_controller
+[1.896s] Installing pose_subscriber script to /home/seojin/prac/install/my_robot_controller/lib/my_robot_controller
+[1.896s] Installing test_node script to /home/seojin/prac/install/my_robot_controller/lib/my_robot_controller
+[1.896s] Installing turtle_controller script to /home/seojin/prac/install/my_robot_controller/lib/my_robot_controller
+[1.897s] writing list of installed files to '/home/seojin/prac/build/my_robot_controller/install.log'
+[1.930s] Invoked command in '/home/seojin/prac/src/my_robot_controller' returned '0': PYTHONPATH=/home/seojin/prac/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seojin/prac/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/seojin/prac/build/my_robot_controller/build install --record /home/seojin/prac/build/my_robot_controller/install.log --single-version-externally-managed install_data --force

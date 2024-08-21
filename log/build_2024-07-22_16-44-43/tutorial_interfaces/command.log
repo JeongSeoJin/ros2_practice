@@ -1,0 +1,2 @@
+Invoking command in '/home/seojin/prac/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seojin/prac/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/seojin/prac/build/tutorial_interfaces -- -j4 -l4
+Invoked command in '/home/seojin/prac/build/tutorial_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seojin/prac/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/seojin/prac/build/tutorial_interfaces -- -j4 -l4

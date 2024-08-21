@@ -1,0 +1,16 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/seojin/prac/build/my_robot_controller",
+        "/home/seojin/prac/install/my_robot_controller/lib/python3.10/site-packages",
+        "/home/seojin/prac/install/tutorial_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/seojin/prac/build/my_robot_controller",
+        "/home/seojin/prac/install/my_robot_controller/lib/python3.10/site-packages",
+        "/home/seojin/prac/install/tutorial_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

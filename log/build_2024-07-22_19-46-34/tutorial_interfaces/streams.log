@@ -1,0 +1,53 @@
+[0.012s] Invoking command in '/home/seojin/prac/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seojin/prac/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/seojin/prac/build/tutorial_interfaces -- -j4 -l4
+[0.044s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.190s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.199s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.231s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.235s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.242s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.255s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.280s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.420s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.643s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.643s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.643s]   tutorial_interfaces --arguments-file
+[0.643s]   /home/seojin/prac/build/tutorial_interfaces/rosidl_adapter__arguments__tutorial_interfaces.json
+[0.643s]   --output-dir
+[0.643s]   /home/seojin/prac/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces
+[0.644s]   --output-file
+[0.644s]   /home/seojin/prac/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces.idls)
+[0.644s]   returned error code 1:
+[0.644s] 
+[0.644s]   Traceback (most recent call last):
+[0.644s] 
+[0.644s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.644s]       return _run_code(code, main_globals, None,
+[0.644s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.644s]       exec(code, run_globals)
+[0.644s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.644s]       sys.exit(main())
+[0.644s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.644s]       abs_idl_file = convert_to_idl(
+[0.644s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.645s]       return convert_msg_to_idl(
+[0.645s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[0.645s]       msg = parse_message_string(package_name, input_file.stem, content)
+[0.645s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 544, in parse_message_string
+[0.645s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[0.645s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 388, in __init__
+[0.645s]       self.base_type = BaseType(
+[0.645s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[0.645s]       raise InvalidResourceName(
+[0.645s] 
+[0.645s]   rosidl_adapter.parser.InvalidResourceName: 'coor' is an invalid message
+[0.645s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.645s] 
+[0.645s] Call Stack (most recent call first):
+[0.645s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.646s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[0.646s] 
+[0.646s] [0m
+[0.646s] -- Configuring incomplete, errors occurred!
+[0.646s] See also "/home/seojin/prac/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[0.650s] gmake: *** [Makefile:1179: cmake_check_build_system] Error 1
+[0.653s] Invoked command in '/home/seojin/prac/build/tutorial_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seojin/prac/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/seojin/prac/build/tutorial_interfaces -- -j4 -l4

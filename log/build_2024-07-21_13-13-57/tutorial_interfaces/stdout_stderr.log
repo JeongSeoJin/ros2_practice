@@ -1,0 +1,11 @@
+[ 12%] Built target tutorial_interfaces__rosidl_generator_c
+[ 12%] Built target tutorial_interfaces__cpp
+failed to create symbolic link '/home/seojin/prac/build/tutorial_interfaces/ament_cmake_python/tutorial_interfaces/tutorial_interfaces' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_tutorial_interfaces.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_tutorial_interfaces] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_tutorial_interfaces.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c[0m
+[ 23%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[ 34%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 44%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+gmake: *** [Makefile:146: all] Error 2

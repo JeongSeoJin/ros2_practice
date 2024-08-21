@@ -1,0 +1,12 @@
+[console_scripts]
+data_subscriber = my_robot_controller.data_subscriber:main
+draw_circle = my_robot_controller.draw_circle:main
+listener = my_robot_controller.listener:main
+pose_subscriber = my_robot_controller.pose_subscriber:main
+publisher_node = my_robot_controller.publisher_node:main
+serial_reader = my_robot_controller.serial_reader:main
+subscriber_node = my_robot_controller.subscriber_node:main
+talker = my_robot_controller.talker:main
+test_node = my_robot_controller.my_first_node:main
+turtle_controller = my_robot_controller.turtle_controller:main
+

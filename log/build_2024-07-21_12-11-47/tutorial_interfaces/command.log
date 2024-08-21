@@ -1,0 +1,2 @@
+Invoking command in '/home/seojin/prac/build/tutorial_interfaces': /usr/bin/cmake /home/seojin/prac/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/seojin/prac/install/tutorial_interfaces
+Invoked command in '/home/seojin/prac/build/tutorial_interfaces' returned '1': /usr/bin/cmake /home/seojin/prac/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/seojin/prac/install/tutorial_interfaces
